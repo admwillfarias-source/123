@@ -38,7 +38,7 @@
 
 ### 5. Outros
 - **Pré-carga no ocioso:** o JS da busca e o índice entram como prefetch depois que a página carrega. Não roda com economia de dados ou rede 2G.
-- **Fontes:** Inter e Plus Jakarta Sans (75 KB) saíram do tema. Não eram carregadas por nenhuma página; o zip fica menor.
+- **Fontes:** Inter e Plus Jakarta Sans (75 KB) saíram do tema. Não eram carregadas por nenhuma página. O zip ficou do mesmo tamanho, porque os dois índices novos entraram no lugar.
 - **JS minificado em ASCII puro**, sem risco de acento quebrado se o servidor não informar a codificação.
 - **CSS crítico conferido nas páginas principais** (home, veículo, ano, cidade, bairro, marca, categoria, SKU, produto, blog, moto, caminhão, estacionária e busca), a 390 px e a 1440 px:
   - 437 das 464 regras são usadas; ele já estava enxuto e não foi alterado;
