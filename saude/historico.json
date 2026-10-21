@@ -9,12 +9,97 @@
         "medicoes": []
       },
       "funcional": [
-        {"pagina": "https://awrbaterias.com.br/", "abre": true, "canonical_unica_propria": true, "whatsapp": true, "telefone": true, "busca_veiculo": true, "botao_pedido": true},
-        {"pagina": "https://awrbaterias.com.br/baterias-em/canoas/", "abre": true, "canonical_unica_propria": true, "whatsapp": false, "whatsapp_encontrado": "wa.me/5551999686238", "telefone": true},
-        {"pagina": "https://awrbaterias.com.br/bateria-estacionaria/", "abre": true, "canonical_unica_propria": true, "whatsapp": true, "telefone_formato": "tel:5135165472 / tel:555135165472 (sem +55)", "imagem_hero_vazia": true},
-        {"pagina": "https://awrbaterias.com.br/produto/bateria-heliar-45ah-h45be/", "abre": true, "canonical_unica_propria": true, "whatsapp": true, "telefone": true, "preco": "R$ 440,00"}
+        {
+          "pagina": "https://awrbaterias.com.br/",
+          "abre": true,
+          "canonical_unica_propria": true,
+          "whatsapp": true,
+          "telefone": true,
+          "busca_veiculo": true,
+          "botao_pedido": true
+        },
+        {
+          "pagina": "https://awrbaterias.com.br/baterias-em/canoas/",
+          "abre": true,
+          "canonical_unica_propria": true,
+          "whatsapp": false,
+          "whatsapp_encontrado": "wa.me/5551999686238",
+          "telefone": true
+        },
+        {
+          "pagina": "https://awrbaterias.com.br/bateria-estacionaria/",
+          "abre": true,
+          "canonical_unica_propria": true,
+          "whatsapp": true,
+          "telefone_formato": "tel:5135165472 / tel:555135165472 (sem +55)",
+          "imagem_hero_vazia": true
+        },
+        {
+          "pagina": "https://awrbaterias.com.br/produto/bateria-heliar-45ah-h45be/",
+          "abre": true,
+          "canonical_unica_propria": true,
+          "whatsapp": true,
+          "telefone": true,
+          "preco": "R$ 440,00"
+        }
       ],
-      "search_console_7d": {"cliques": 1046, "cliques_7d_anteriores": 1183, "impressoes": 130385, "impressoes_7d_anteriores": 135732, "ctr": 0.008, "posicao": 7.85}
+      "search_console_7d": {
+        "cliques": 1046,
+        "cliques_7d_anteriores": 1183,
+        "impressoes": 130385,
+        "impressoes_7d_anteriores": 135732,
+        "ctr": 0.008,
+        "posicao": 7.85
+      }
+    },
+    {
+      "data": "2026-10-21",
+      "core_web_vitals": {
+        "status": "nao_medido",
+        "motivo": "Supermetrics PSI: NOT_AUTHENTICATED; WebFetch API PageSpeed: permissão de URL não respondida (PROVENANCE_REQUIRED)",
+        "medicoes": []
+      },
+      "funcional": {
+        "status": "nao_verificado",
+        "motivo": "WebFetch das 4 páginas de teste: PROVENANCE_REQUIRED (permissão não respondida a tempo)"
+      },
+      "search_console_7d": {
+        "cliques": 1101,
+        "cliques_7d_anteriores": 1074,
+        "impressoes": 153050,
+        "impressoes_7d_anteriores": 135281,
+        "ctr": 0.0072,
+        "ctr_anterior": 0.0079,
+        "posicao": 7.91,
+        "posicao_anterior": 7.86,
+        "paginas_teste": {
+          "https://awrbaterias.com.br/baterias-em/canoas/": {
+            "cliques": 0,
+            "impressoes": 152,
+            "posicao": 9.89,
+            "posicao_anterior": 5.37
+          },
+          "https://awrbaterias.com.br/bateria-estacionaria/": {
+            "cliques": 1,
+            "impressoes": 16,
+            "posicao": 30.88,
+            "posicao_anterior": 22.25
+          },
+          "https://awrbaterias.com.br/produto/bateria-heliar-45ah-h45be/": {
+            "cliques": 0,
+            "impressoes": 51,
+            "posicao": 5.04,
+            "posicao_anterior": 8.08
+          },
+          "https://awrbaterias.com.br/": {
+            "cliques": 46,
+            "cliques_anterior": 35,
+            "impressoes": 2466,
+            "posicao": 8.29,
+            "posicao_anterior": 7.78
+          }
+        }
+      }
     }
   ]
 }
