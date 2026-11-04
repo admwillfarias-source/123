@@ -116,6 +116,22 @@
         "status": "nao_medido",
         "motivo": "Supermetrics GW: TRIAL_EXPIRED (teste do time 'Team adm.willfarias' expirou em 2026-10-21); Windsor.ai sem Search Console conectado"
       }
+    },
+    {
+      "data": "2026-11-04",
+      "core_web_vitals": {
+        "status": "nao_medido",
+        "motivo": "Supermetrics PSI: NOT_AUTHENTICATED; WebFetch API PageSpeed: PROVENANCE_REQUIRED (permissão de URL não respondida)",
+        "medicoes": []
+      },
+      "funcional": {
+        "status": "nao_verificado",
+        "motivo": "WebFetch das 4 páginas de teste e do site secundário: PROVENANCE_REQUIRED (permissão não respondida a tempo)"
+      },
+      "search_console_7d": {
+        "status": "nao_medido",
+        "motivo": "Supermetrics GW: autenticado, mas TRIAL_EXPIRED (teste do time 'Team adm.willfarias' expirou em 2026-10-21)"
+      }
     }
   ]
 }
