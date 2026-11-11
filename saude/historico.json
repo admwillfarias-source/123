@@ -132,6 +132,60 @@
         "status": "nao_medido",
         "motivo": "Supermetrics GW: autenticado, mas TRIAL_EXPIRED (teste do time 'Team adm.willfarias' expirou em 2026-10-21)"
       }
+    },
+    {
+      "data": "2026-11-11",
+      "core_web_vitals": {
+        "status": "nao_medido",
+        "motivo": "Supermetrics PSI: NOT_AUTHENTICATED; WebFetch API PageSpeed: PROVENANCE_REQUIRED (permissão de URL não respondida)",
+        "medicoes": []
+      },
+      "funcional": {
+        "status": "nao_verificado",
+        "motivo": "WebFetch das 4 páginas de teste e do site secundário: PROVENANCE_REQUIRED (permissão não respondida a tempo)"
+      },
+      "search_console_7d": {
+        "cliques": 1627,
+        "cliques_7d_anteriores": 1401,
+        "impressoes": 220107,
+        "impressoes_7d_anteriores": 183396,
+        "ctr": 0.0074,
+        "ctr_anterior": 0.0076,
+        "posicao": 7.12,
+        "posicao_anterior": 7.4,
+        "observacao": "Supermetrics GW respondeu com aviso de teste expirado (uso da cota diária gratuita)",
+        "paginas_teste": {
+          "https://awrbaterias.com.br/": {
+            "cliques": 31,
+            "cliques_anterior": 32,
+            "impressoes": 2323,
+            "impressoes_anterior": 2193,
+            "posicao": 9.74,
+            "posicao_anterior": 9.37
+          },
+          "https://awrbaterias.com.br/baterias-em/canoas/": {
+            "cliques": 6,
+            "cliques_anterior": 5,
+            "impressoes": 272,
+            "impressoes_anterior": 164,
+            "posicao": 8.27,
+            "posicao_anterior": 7.48
+          },
+          "https://awrbaterias.com.br/produto/bateria-heliar-45ah-h45be/": {
+            "cliques": 2,
+            "cliques_anterior": 0,
+            "impressoes": 53,
+            "impressoes_anterior": 43,
+            "posicao": 5.21,
+            "posicao_anterior": 2.49
+          },
+          "https://awrbaterias.com.br/bateria-estacionaria/": {
+            "cliques": 0,
+            "impressoes": 0,
+            "observacao": "sem linhas no Search Console nos últimos 7 dias"
+          }
+        }
+      }
     }
   ]
 }
