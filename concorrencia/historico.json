@@ -644,6 +644,351 @@
     "meta_biblioteca": "não foi possível ler (sem acesso por leitura automática)",
     "google_organico": "AWR domina 'entrega POA', 'estacionária POA', 'Gravataí' e 'Canoas' (vários domínios próprios); WebSearch não mostra anúncios pagos"
    }
+  },
+  {
+   "data": "2026-11-15",
+   "observacao": "Terceira coleta. WebSearch (extended) + WebFetch via agentes. Muitas páginas de produto deram PROVENANCE_REQUIRED (permissão de leitura não respondida a tempo) ou robots. Bibliotecas de anúncios não tentadas (falharam nas duas rodadas anteriores).",
+   "awr": {
+    "site": "https://awrbaterias.com.br/",
+    "precos": [
+     {
+      "item": "moura_60",
+      "modelo": "Moura M60GD/M60AD",
+      "avista": 499.0,
+      "pix": 484.03,
+      "parcelado": "10x 49,90",
+      "troca": "com troca",
+      "sem_troca": 579.37,
+      "instalacao": true,
+      "garantia": "24 meses",
+      "url": "https://awrbaterias.com.br/bateria/m60gd/",
+      "nota": "tabela por marca diz R$ 485; blog diz R$ 515 (M60GE)"
+     },
+     {
+      "item": "heliar_60",
+      "modelo": "Heliar 60Ah (HF60DD na aplicação)",
+      "avista": 494.0,
+      "troca": "com troca",
+      "instalacao": true,
+      "url": "https://awrbaterias.com.br/baterias-de-carro/",
+      "nota": "só tabela por marca; página de produto HGR60HD não lida (permissão)"
+     },
+     {
+      "item": "zetta_60",
+      "modelo": "Zetta Z60D",
+      "avista": 429.0,
+      "pix": 416.13,
+      "parcelado": "10x 42,90",
+      "troca": "com troca",
+      "sem_troca_acrescimo": 78.66,
+      "instalacao": true,
+      "garantia": "18 meses",
+      "url": "https://awrbaterias.com.br/",
+      "nota": "ficha na home; tabela por marca diz R$ 400"
+     },
+     {
+      "item": "moura_70_75",
+      "modelo": "Moura 70Ah (tabela) / M75LD (ficha)",
+      "avista": 735.0,
+      "avista_75": 779.0,
+      "pix_75": 755.63,
+      "parcelado_75": "10x 77,90",
+      "troca": "com troca",
+      "instalacao": true,
+      "garantia": "24 meses",
+      "url": "https://awrbaterias.com.br/",
+      "nota": "tabela 75Ah R$ 755; blog 70Ah 'a partir de R$ 775'"
+     },
+     {
+      "item": "estacionaria_60",
+      "modelo": "Freedom DF1000 (70Ah)",
+      "avista": 459.0,
+      "pix": 445.23,
+      "parcelado": "10x 45,90",
+      "troca": "com troca",
+      "sem_troca_acrescimo": 82.08,
+      "garantia": "2 anos",
+      "url": "https://awrbaterias.com.br/",
+      "nota": "página de produto DF1000 e Moura nobreak 60Ah não lidas (permissão)"
+     },
+     {
+      "item": "moto_5_6",
+      "modelo": "Moura MA5D",
+      "avista": 199.0,
+      "pix": 193.03,
+      "parcelado": "10x 19,90",
+      "troca": "com troca",
+      "garantia": "6 meses",
+      "url": "https://awrbaterias.com.br/",
+      "nota": "MA6D não apareceu; /baterias-para-moto/ não lida"
+     }
+    ],
+    "ofertas": {
+     "prazo": "até 35 min (estimativa, confirmada no WhatsApp)",
+     "horario": "grátis seg-sáb 8h30-18h; plantão 6h-8h29 e 18h01-22h R$ 60; dom/feriado R$ 90; após 22h só agendamento",
+     "pagamento": "Pix 3% off, débito, crédito 10x, dinheiro (FAQ), na entrega",
+     "taxa": "Alvorada, Viamão e Sapiranga R$ 25; Caxias e demais RS por transportadora 1-5 dias úteis, Pix antecipado",
+     "headline": "Bateria arriou? Não fique parado! A AWR leva e instala sua bateria em até 35 minutos!",
+     "destaques": "16 cidades de entrega rápida; teste de alternador grátis; desconto no casco"
+    },
+    "alertas": [
+     "preços divergentes entre páginas (Moura 60: 485/499/515; Zetta 60: 400/429; Moura 70: 735/775)",
+     "tabela por marca mostra Heliar 80Ah R$ 2.415 (provável erro)",
+     "/baterias-em/porto-alegre/ não informa valor da taxa de plantão",
+     "awr-connect-boost.lovable.app segue indexado e aparece no topo para 'bateria automotiva entrega e instalação Porto Alegre'",
+     "bateriasgravatai.com.br redireciona (302) para awrbaterias.com.br/baterias-em/gravatai/ — domínio da própria AWR"
+    ]
+   },
+   "concorrentes": [
+    {
+     "nome": "Reche Baterias",
+     "site": "https://rechebaterias.com.br/",
+     "lido": true,
+     "precos": [
+      {
+       "item": "moura_60",
+       "modelo": "M60GD",
+       "preco": 510.0,
+       "troca": "com troca",
+       "garantia": "24m",
+       "url": "https://rechebaterias.com.br/"
+      },
+      {
+       "item": "heliar_60",
+       "modelo": "HE60DD",
+       "preco": 500.0,
+       "troca": "com troca",
+       "garantia": "24m",
+       "url": "https://rechebaterias.com.br/"
+      },
+      {
+       "item": "zetta_60",
+       "modelo": "Z60D",
+       "preco": 390.0,
+       "parcelado": "10x sem juros",
+       "troca": "com troca",
+       "garantia": "18m",
+       "url": "https://rechebaterias.com.br/"
+      },
+      {
+       "item": "moto_5_6",
+       "modelo": "MA5-D / MA6-D",
+       "preco": 179.0,
+       "preco_6": 199.0,
+       "troca": "com troca",
+       "url": "https://rechebaterias.com.br/"
+      },
+      {
+       "item": "estacionaria_ref",
+       "modelo": "Tudor TFS60 (não comparável com Freedom/Moura)",
+       "preco": 430.0,
+       "troca": "com troca",
+       "url": "https://rechebaterias.com.br/"
+      }
+     ],
+     "ofertas": {
+      "cidades": "POA e Região Metropolitana",
+      "destaque": "Promoção Zetta Z50D R$ 360, 10x sem juros (NOVO)",
+      "entrega": "entrega e instalação (sem dizer se grátis)"
+     },
+     "nota": "páginas de produto não lidas (permissão); preços dos cards da home"
+    },
+    {
+     "nome": "Baterias Legal",
+     "site": "https://bateriaslegal.com.br/",
+     "lido": true,
+     "precos": [
+      {
+       "item": "moura_60",
+       "modelo": "M60GD/M60AD",
+       "preco_parcelado_total": 539.0,
+       "parcelado": "10x 53,90",
+       "ancora": "De R$ 599",
+       "troca": "com troca",
+       "garantia": "24m",
+       "url": "https://bateriaslegal.com.br/"
+      },
+      {
+       "item": "maxfor_60_ref",
+       "modelo": "Maxfor LP60AFD",
+       "preco_parcelado_total": 399.0,
+       "troca": "com troca",
+       "url": "https://bateriaslegal.com.br/"
+      }
+     ],
+     "ofertas": {
+      "prazo": "grátis em 50 min (consultar região, horário comercial)",
+      "horario": "seg-sex 8h-12h/13h30-18h; sáb 8h30-12h30",
+      "pagamento": "10x sem juros, pague na entrega",
+      "destaque": "249 avaliações Google 'Excelente'"
+     },
+     "nota": "metadados indicam última modificação 2025-11-20; /promocoes/ não lida"
+    },
+    {
+     "nome": "Sul Battery / Baterias Canoas",
+     "site": "https://www.bateriascanoas.com.br/",
+     "lido": true,
+     "precos": [
+      {
+       "item": "heliar_60",
+       "modelo": "Heliar 60Ah",
+       "preco_parcelado_total": 589.0,
+       "parcelado": "10x 58,90",
+       "ancora": "De R$ 659",
+       "troca": "com troca",
+       "garantia": "24m",
+       "url": "https://www.bateriascanoas.com.br/"
+      },
+      {
+       "item": "maxsul_60_ref",
+       "modelo": "MaxSul 60Ah",
+       "preco_parcelado_total": 359.0,
+       "troca": "com troca",
+       "url": "https://www.bateriascanoas.com.br/"
+      }
+     ],
+     "ofertas": {
+      "prazo": "até 40 min Canoas, grátis",
+      "horario": "seg-sex 8h-18h; sáb 8h-12h",
+      "pagamento": "na entrega, 10x, Pix com desconto, dinheiro",
+      "destaque": "'Promoções da semana' (sulbattery.com.br); ECON 45Ah R$ 359 (novo item)"
+     }
+    },
+    {
+     "nome": "Moura Fácil",
+     "site": "https://mourafacil.moura.com.br/veiculos",
+     "lido": "parcial",
+     "precos": [],
+     "ofertas": {
+      "prazo": "até 50 min, entrega e instalação grátis",
+      "horario": "9h-18h dias úteis",
+      "pagamento": "após instalação, 10x sem juros, Pix, dinheiro",
+      "promocao": "NOVO: Black November — R$ 100 em Vale Bonus na compra de bateria Moura, 06 a 30/11/2026; Indique um amigo R$ 100 (até 01/12/2026)"
+     }
+    },
+    {
+     "nome": "Central de Baterias (Caxias, Heliar Service)",
+     "site": "https://www.heliar.com/heliar-service/localiza%C3%A7%C3%B5es/central-de-baterias-rua-%C3%A2ngelo-muratore-870",
+     "lido": true,
+     "precos": [],
+     "ofertas": {
+      "destaque": "entrega e instalação grátis por telefone; revisão gratuita"
+     }
+    },
+    {
+     "nome": "Tecnobat (Canoas)",
+     "site": "https://tecnobatbaterias.com.br/",
+     "lido": true,
+     "precos": [],
+     "ofertas": {
+      "prazo": "até 40 min Canoas",
+      "horario": "seg-sex 7h30-18h; sáb 8h-12h",
+      "pagamento": "10x, pague na entrega",
+      "nota": "preço 'confira' (sem valor)"
+     }
+    },
+    {
+     "nome": "Auto Baterias Júpiter (Canoas)",
+     "site": "https://autobateriasjupiter.com.br/",
+     "lido": true,
+     "precos": [],
+     "ofertas": {
+      "prazo": "'em minutos', grátis",
+      "horario": "seg-sex 7h-19h; sáb 8h-12h",
+      "pagamento": "6x cartão, Pix com desconto, pague ao receber"
+     }
+    },
+    {
+     "nome": "Baterias Porto",
+     "site": "https://portobat.com.br/",
+     "lido": "parcial",
+     "precos": [],
+     "ofertas": {
+      "prazo": "até 40 min POA (bateriasporto.com)",
+      "pagamento": "10x sem juros",
+      "destaque": "check-up elétrico grátis; lojas POA zona norte e Canoas"
+     }
+    },
+    {
+     "nome": "Magazine Luiza",
+     "lido": "parcial",
+     "precos": [
+      {
+       "item": "moura_60",
+       "modelo": "M60GD base de troca (Baterias Original, entrega só SP capital)",
+       "avista": 519.99,
+       "parcelado": "7x 74,28",
+       "troca": "com troca",
+       "instalacao": false,
+       "url": "https://www.magazineluiza.com.br/bateria-de-carro-moura-m60gd-base-de-troca/p/cjg3df8fck/au/baau/",
+       "nota": "não atende RS"
+      }
+     ]
+    },
+    {
+     "nome": "Jajá Baterias",
+     "lido": false,
+     "motivo": "erro do site / permissão não respondida"
+    },
+    {
+     "nome": "Baterias Freitas",
+     "lido": false,
+     "motivo": "permissão não respondida a tempo"
+    },
+    {
+     "nome": "Duran Baterias",
+     "lido": false,
+     "motivo": "permissão não respondida a tempo"
+    },
+    {
+     "nome": "Baterias Fernando Susin",
+     "lido": false,
+     "motivo": "permissão não respondida a tempo"
+    },
+    {
+     "nome": "Prime Baterias",
+     "lido": false,
+     "motivo": "permissão não respondida a tempo"
+    },
+    {
+     "nome": "Freeway Baterias RS",
+     "lido": false,
+     "motivo": "permissão não respondida a tempo"
+    },
+    {
+     "nome": "Forte Baterias Sertório",
+     "lido": false,
+     "motivo": "robots.txt bloqueia"
+    },
+    {
+     "nome": "DISK Baterias POA",
+     "lido": false,
+     "motivo": "robots.txt bloqueia"
+    },
+    {
+     "nome": "Heliar Express",
+     "lido": false,
+     "motivo": "permissão não respondida a tempo"
+    },
+    {
+     "nome": "Mercado Livre",
+     "lido": false,
+     "motivo": "robots.txt bloqueia"
+    },
+    {
+     "nome": "Carrefour",
+     "lido": false,
+     "motivo": "permissão não respondida a tempo"
+    }
+   ],
+   "concorrentes_novos_vistos": [
+    "Angelo Car (angelocar.com.br/entrega-de-baterias, robots bloqueia)"
+   ],
+   "anuncios": {
+    "google_transparencia": "não tentado (falhou nas duas rodadas anteriores)",
+    "meta_biblioteca": "não tentado (falhou nas duas rodadas anteriores)",
+    "google_organico": "WebSearch não mostra anúncios pagos. Orgânico: AWR e domínios próprios dominam 'entrega e instalação POA', 'Gravataí', 'estacionária'; Legal Baterias aparece em 'entrega e instalação POA'; Sul Battery, Tecnobat, Júpiter em 'Canoas 40 min'"
+   }
   }
  ]
 }
