@@ -238,6 +238,81 @@
           }
         }
       }
+    },
+    {
+      "data": "2026-11-25",
+      "core_web_vitals": {
+        "status": "nao_medido",
+        "motivo": "Supermetrics PSI: NOT_AUTHENTICATED; WebFetch API PageSpeed: 'failed at its site (client_error)', sem código HTTP",
+        "medicoes": []
+      },
+      "funcional": [
+        {
+          "pagina": "https://awrbaterias.com.br/",
+          "abre": true,
+          "canonical_unica_propria": true,
+          "whatsapp": true,
+          "telefone": true,
+          "busca_veiculo": true,
+          "botao_pedido": true,
+          "title": "Baterias em Porto Alegre | Entrega e Troca em 35 Min | AWR",
+          "inconsistencias": [
+            "MF60AD R$ 699,00 (Canoas mostra R$ 729,00)",
+            "socorro 35 min vs card do blog 40 min",
+            "'Moura 72 Amperes' em vez de Ah"
+          ]
+        },
+        {
+          "pagina": "https://awrbaterias.com.br/baterias-em/canoas/",
+          "abre": true,
+          "canonical_unica_propria": true,
+          "whatsapp": false,
+          "whatsapp_encontrado": "wa.me/5551999686238",
+          "telefone": true,
+          "inconsistencias": [
+            "MF60AD R$ 729,00 vs R$ 699,00 na home",
+            "telefone da loja Canoas 3031-2222 aqui vs 3516-5472 na página estacionária"
+          ]
+        },
+        {
+          "pagina": "https://awrbaterias.com.br/bateria-estacionaria/",
+          "abre": true,
+          "canonical_unica_propria": true,
+          "whatsapp": true,
+          "telefone": false,
+          "telefone_formato": "tel:5135165472 / tel:555135749267 (sem +55)",
+          "imagem_hero_vazia": true,
+          "inconsistencias": [
+            "garantia 12 vs 24 meses",
+            "desde 2010 vs +15 anos",
+            "entrega mesmo dia vs 1 a 4 dias úteis",
+            "horário 8h-19h vs 08:30-18h",
+            "+1.500 vs 1935 avaliações",
+            "Operações 24/7 vs 'Não atendemos 24 horas' (Canoas)"
+          ]
+        },
+        {
+          "pagina": "https://awrbaterias.com.br/produto/bateria-heliar-45ah-h45be/",
+          "abre": true,
+          "canonical_unica_propria": true,
+          "whatsapp": true,
+          "telefone": true,
+          "preco": "R$ 440,00",
+          "inconsistencias": [
+            "slug h45be vs título/SKU H48BE",
+            "horário 8h (seg-sáb) e domingo 10h-18h vs 08:30-18h",
+            "desde 2009 vs 2010"
+          ]
+        },
+        {
+          "pagina": "https://bateriasportoalegre.com.br/",
+          "redireciona": "302 para https://awrbaterias.com.br/baterias-em/porto-alegre/"
+        }
+      ],
+      "search_console_7d": {
+        "status": "nao_medido",
+        "motivo": "Supermetrics GW: TRIAL_EXPIRED (teste expirou em 2026-10-21); cota diária gratuita esgotada, reinicia em ~14 h"
+      }
     }
   ]
 }
